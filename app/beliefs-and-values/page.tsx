@@ -1,7 +1,7 @@
 export default function BeliefsAndValues() {
   return (
-    <div className="p-8 sm:p-20 min-h-screen">
-      <h1 className="text-2xl sm:text-3xl font-bold mb-4">Beliefs and Values in Engineering Design</h1>
+    <div className="p-8 sm:p-20 min-h-screen bg-darkPurple text-offWhite">
+      <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-mint">Beliefs and Values in Engineering Design</h1>
       <p className="text-sm sm:text-base leading-relaxed mb-4">
         My approach to engineering design is deeply rooted in the values instilled in me by my upbringing and experiences:
       </p>
