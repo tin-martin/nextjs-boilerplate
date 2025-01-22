@@ -1,7 +1,7 @@
 export default function Experiences() {
   return (
-    <div className="p-8 sm:p-20 min-h-screen">
-      <h1 className="text-2xl sm:text-3xl font-bold mb-4">Influential Experiences</h1>
+    <div className="p-8 sm:p-20 min-h-screen bg-darkPurple text-offWhite">
+      <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-mint">Influential Experiences</h1>
       <p className="text-sm sm:text-base leading-relaxed mb-4">
         My journey into engineering design has been shaped by a combination of creative pursuits and technical interests:
       </p>
