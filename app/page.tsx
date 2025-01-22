@@ -31,20 +31,20 @@ export default function Home() {
           </p>
         </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Link
-            href="/beliefs-and-values"
-            className="rounded-full border border-solid border-teal bg-mint text-darkPurple hover:bg-teal hover:text-offWhite text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-          >
-            Beliefs and Values
-          </Link>
-          <Link
-            href="/experiences"
-            className="rounded-full border border-solid border-teal bg-mint text-darkPurple hover:bg-teal hover:text-offWhite text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-          >
-            Experiences
-          </Link>
-        </div>
+    <div className="flex gap-4 items-center flex-col sm:flex-row">
+  <Link
+    href="/beliefs-and-values"
+    className="rounded-full border border-solid border-teal bg-mint text-darkPurple hover:bg-teal hover:text-offWhite text-sm sm:text-base py-2 px-6 sm:py-3 sm:px-8"
+  >
+    Beliefs and Values
+  </Link>
+  <Link
+    href="/experiences"
+    className="rounded-full border border-solid border-teal bg-mint text-darkPurple hover:bg-teal hover:text-offWhite text-sm sm:text-base py-2 px-6 sm:py-3 sm:px-8"
+  >
+    Experiences
+  </Link>
+</div>
 
         <p className="text-sm sm:text-base leading-relaxed mt-8 text-brown">
           In sum, engineering design is not only a professional pursuit for me but also a personal journey of creativity, collaboration, and impact. As I continue to develop my skills and perspectives, I am excited to further explore how engineering design can transform creative visions into tangible solutions that improve lives. My values, experiences, and passion for learning will continue to guide my growth as an engineering designer. Through each new challenge, I look forward to finding ways to merge creativity with practicality to make a meaningful difference in the world.
