@@ -15,6 +15,9 @@ export default {
         teal: "#70ABAF",
         brown: "#705D56",
       },
+      animation: {
+        'spin-slow': 'spin 4s linear infinite',
+      },
     },
   },
   plugins: [],
