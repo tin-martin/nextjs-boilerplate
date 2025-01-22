@@ -14,7 +14,7 @@ export default function Home() {
           </p>
           <ul className="list-disc list-inside mt-4 space-y-2">
             <li>
-              <strong>Frame:</strong> Understand the situation.
+              <strong className="text-teal">Frame:</strong> Understand the situation.
             </li>
             <li>
               <strong>Diverge:</strong> Come up with lots of ideas.
