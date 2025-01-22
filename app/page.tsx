@@ -46,15 +46,11 @@ export default function Home() {
   </Link>
 </div>
 
-        <p className="text-sm sm:text-base leading-relaxed mt-8 text-brown">
+        <p className="text-sm sm:text-base leading-relaxed mt-8 text-offWhite">
           In sum, engineering design is not only a professional pursuit for me but also a personal journey of creativity, collaboration, and impact. As I continue to develop my skills and perspectives, I am excited to further explore how engineering design can transform creative visions into tangible solutions that improve lives. My values, experiences, and passion for learning will continue to guide my growth as an engineering designer. Through each new challenge, I look forward to finding ways to merge creativity with practicality to make a meaningful difference in the world.
         </p>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center text-offWhite">
-        <p className="text-xs text-center">
-          © {new Date().getFullYear()} - All rights reserved.
-        </p>
-      </footer>
+     
     </div>
   );
 }
