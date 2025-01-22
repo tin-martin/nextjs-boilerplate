@@ -9,7 +9,6 @@ export default function Home() {
         </h1>
 
         <section className="text-sm sm:text-base max-w-2xl leading-relaxed">
-          <h2 className="text-lg font-semibold mb-4">Introduction</h2>
           <p>
             To me, engineering is the application of the sciences and math to implement and solve real-world challenges and needs. Engineering design, in particular, is a dynamic, iterative, and creative process summarized as:
           </p>
@@ -38,6 +37,10 @@ export default function Home() {
             Experiences
           </Link>
         </div>
+
+        <p className="text-sm sm:text-base leading-relaxed mt-8">
+          In sum, engineering design is not only a professional pursuit for me but also a personal journey of creativity, collaboration, and impact. As I continue to develop my skills and perspectives, I am excited to further explore how engineering design can transform creative visions into tangible solutions that improve lives. My values, experiences, and passion for learning will continue to guide my growth as an engineering designer. Through each new challenge, I look forward to finding ways to merge creativity with practicality to make a meaningful difference in the world.
+        </p>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <p className="text-xs text-center">
