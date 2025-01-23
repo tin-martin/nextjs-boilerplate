@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+//dfdfsfdsfs
 export default function Experiences() {
   return (
     <div className="p-8 sm:p-20 min-h-screen bg-darkPurple text-offWhite">
