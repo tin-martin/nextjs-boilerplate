@@ -1,23 +1,13 @@
 import Link from "next/link";
-import Head from 'next/head';
-import '../styles/globals.css'; // If you have a global CSS file
 
-export default function App({ Component, pageProps }) {
+export default function Home() {
   return (
-    <>
       <Head>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
       </Head>
-      <Component {...pageProps} />
-    </>
-  );
-}
-
-export default function Home() {
-  return (
     <div className="animate__rubberBand grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-teal text-offWhite">
       {/* Rotating Emoji */}
       <div
