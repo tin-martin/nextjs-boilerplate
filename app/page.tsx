@@ -37,16 +37,16 @@ export default function Home() {
           </p>
           <ul className="list-disc list-inside mt-4 space-y-2">
             <li>
-              <strong className="text-teal">Frame:</strong> Understand the situation.
+              <strong className="text-darkPurple">Frame:</strong> Understand the situation.
             </li>
             <li>
-              <strong className="text-teal">Diverge:</strong> Come up with lots of ideas.
+              <strong className="text-darkPurple">Diverge:</strong> Come up with lots of ideas.
             </li>
             <li>
-              <strong className="text-teal">Represent:</strong> Sketch, report, model, prototype, build, present, etc.
+              <strong className="text-darkPurple">Represent:</strong> Sketch, report, model, prototype, build, present, etc.
             </li>
             <li>
-              <strong className="text-teal">Converge:</strong> Throw some ideas away.
+              <strong className="text-darkPurple">Converge:</strong> Throw some ideas away.
             </li>
           </ul>
           <p className="mt-4">
