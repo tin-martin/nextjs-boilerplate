@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Experiences() {
   return (
     <div className="p-8 sm:p-20 min-h-screen bg-darkPurple text-offWhite">
@@ -17,21 +15,21 @@ export default function Experiences() {
           </p>
           <div className="flex gap-4 mt-4">
             <div>
-              <Image
+              <img
                 src="/bear.JPG"
                 alt="A bear representing creativity"
-                width={150}
-                height={150}
+                width="150"
+                height="150"
                 className="rounded-lg"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A polar bear I drew with watercolor.</p>
             </div>
             <div>
-              <Image
+              <img
                 src="/violin.JPG"
                 alt="A violin representing musical creativity"
-                width={150}
-                height={150}
+                width="150"
+                height="150"
                 className="rounded-lg"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">Me at a young age playing the violin.</p>
@@ -47,21 +45,21 @@ export default function Experiences() {
           </p>
           <div className="flex gap-4 mt-4">
             <div>
-              <Image
+              <img
                 src="/chess.png"
                 alt="A 3D version of Star Wars Holochess"
-                width={150}
-                height={150}
+                width="150"
+                height="150"
                 className="rounded-lg"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A 3D version of Star Wars Holochess (2022).</p>
             </div>
             <div>
-              <Image
+              <img
                 src="/cube.gif"
                 alt="A simple 2D implementation of a Rubik's cube"
-                width={150}
-                height={150}
+                width="150"
+                height="150"
                 className="rounded-lg"
               />
               <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A simple 2D implementation of a Rubik's cube (2022).</p>
