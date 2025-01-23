@@ -57,12 +57,12 @@ export default function Experiences() {
             <div>
               <img
                 src="/cube.gif"
-                alt="A simple 2D implementation of a Rubik's cube"
+                alt="A simple 2D implementation of a Rubik&apos;s cube"
                 width="150"
                 height="150"
                 className="rounded-lg"
               />
-              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A simple 2D implementation of a Rubik's cube (2022).</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A simple 2D implementation of a Rubik&apos;s cube (2022).</p>
             </div>
           </div>
         </li>
