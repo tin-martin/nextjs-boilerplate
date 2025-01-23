@@ -38,7 +38,36 @@ export default function Experiences() {
             </div>
           </div>
         </li>
-        {/* Continue with similar structure for other experiences */}
+        <li className="mb-10 ms-4">
+          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Ages 13–16</time>
+          <h3 className="text-lg font-semibold text-mint">Exploration of Coding</h3>
+          <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">
+            Coding became a natural extension of my curiosity and desire to create. I began making fun low-level games which helped me gain an appreciation for the intersection of creativity and engineering.
+          </p>
+          <div className="flex gap-4 mt-4">
+            <div>
+              <Image
+                src="/chess.png"
+                alt="A 3D version of Star Wars Holochess"
+                width={150}
+                height={150}
+                className="rounded-lg"
+              />
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A 3D version of Star Wars Holochess (2022).</p>
+            </div>
+            <div>
+              <Image
+                src="/cube.gif"
+                alt="A simple 2D implementation of a Rubik's cube"
+                width={150}
+                height={150}
+                className="rounded-lg"
+              />
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">A simple 2D implementation of a Rubik's cube (2022).</p>
+            </div>
+          </div>
+        </li>
       </ol>
       <p className="text-sm sm:text-base leading-relaxed mt-4">
         These experiences have taught me to view engineering design as an inherently creative discipline. While it is often seen as objective and structured, my background helps me approach design challenges with out-of-the-box thinking and innovative ideas.
