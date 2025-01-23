@@ -25,7 +25,7 @@ export default function Home() {
             Position Statement: Engineering Design and My Approach
           </h1>
 
-          <section className="text-sm sm:text-base max-w-2xl leading-relaxed">
+          <section className="text-sm sm:text-baseleading-relaxed">
             <p>
               To me, engineering is the application of the sciences and math to implement and solve real-world challenges and needs. Engineering design, in particular, is a dynamic, iterative, and creative process summarized as:
             </p>
