@@ -125,10 +125,22 @@ export default function Experiences() {
           <p className="text-base font-normal text-gray-300 dark:text-gray-400">
             For example, in the aforementioned design report for a bubble tea cup, my creative background allowed me to explore unconventional solutions that went beyond the status quo.
           </p>
+          <div className="flex gap-4 mt-4">
+            <div>
+              <Image
+                src="/tea.png"
+                alt="A design that breaks the status quo of bubble tea cups"
+                width={150}
+                height={150}
+                className="rounded-lg"
+              />
+              <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">This is a design that breaks the status quo of bubble tea cups, inspired by a pez dispenser.</p>
+            </div>
+          </div>
         </li>
       </ol>
       <p className="text-sm sm:text-base leading-relaxed mt-4">
-        These experiences have taught me to view engineering design as an inherently creative discipline. While it is often seen as objective and structured, my background helps me approach design challenges with out-of-the-box thinking and innovative ideas. For example, in the aforementioned design report for a bubble tea cup, my creative background allowed me to explore unconventional solutions that went beyond the status quo.
+        These experiences have taught me to view engineering design as an inherently creative discipline. While it is often seen as objective and structured, my background helps me approach design challenges with out-of-the-box thinking and innovative ideas.
       </p>
     </div>
   );
