@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import 'animate.css';
 
 export default function Home() {
   return (
