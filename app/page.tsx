@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+    <>
       <Head>
         <link
           rel="stylesheet"
@@ -64,5 +65,6 @@ export default function Home() {
         </p>
       </main>
     </div>
+    </>
   );
 }
