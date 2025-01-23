@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start max-w-4xl">
-          <h1 className="text-2xl sm:text-3xl font-bold text-center sm:text-left text-mint">
+          <h1 className="animate__rubberBand text-2xl sm:text-3xl font-bold text-center sm:text-left text-mint">
             Position Statement: Engineering Design and My Approach
           </h1>
 
