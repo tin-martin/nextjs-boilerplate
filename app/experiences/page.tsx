@@ -2,7 +2,6 @@ import Image from "next/image";
 
 export default function Experiences() {
   return (
-    <>
     <div className="p-8 sm:p-20 min-h-screen bg-darkPurple text-offWhite">
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-mint">Influential Experiences</h1>
       <p className="text-sm sm:text-base leading-relaxed mb-4">
@@ -74,6 +73,5 @@ export default function Experiences() {
         These experiences have taught me to view engineering design as an inherently creative discipline. While it is often seen as objective and structured, my background helps me approach design challenges with out-of-the-box thinking and innovative ideas.
       </p>
     </div>
-      </>
   );
 }
