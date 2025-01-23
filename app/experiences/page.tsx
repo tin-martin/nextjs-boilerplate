@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Experiences() {
   return (
     <div className="p-8 sm:p-20 min-h-screen bg-darkPurple text-offWhite">
@@ -13,6 +15,22 @@ export default function Experiences() {
           <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-400">
             As a child, I immersed myself in creative activities such as playing the violin and drawing. These experiences nurtured my creative thinking and appreciation for aesthetics.
           </p>
+          <div className="flex gap-4 mt-4">
+            <Image
+              src="/bear.JPG"
+              alt="A bear representing creativity"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
+            <Image
+              src="/violin.JPG"
+              alt="A violin representing musical creativity"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
+          </div>
         </li>
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
